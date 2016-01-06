@@ -18,3 +18,8 @@ Tecnologias utilizadas:
 - JAX-WS, para a publicação do serviço via webservice.
 - Hipster, especifica para resolução do problema de menor caminho com peso, nos grafos resultantes das rotas.
 - JUNIT para os testes unitarios
+
+
+Documentos adicionais:
+WallMartProject.doc descreve sobre a instalação e configuração do ambiente 
+
