@@ -103,6 +103,9 @@ public class MalhaLogisticaBean {
 
 		GraphBuilder<String, Double> graphBuilder = GraphBuilder.<String, Double> create();
 
+		
+		log.info("Total de nos a serem procesados:" + listCaminhos.size());
+		
 		for (Caminho caminho : listCaminhos) {
 			graphBuilder = graphBuilder.connect(caminho.getCodInicio()).to(caminho.getCodFim()).withEdge(caminho.getDistancia());
 		}
@@ -148,11 +151,6 @@ public class MalhaLogisticaBean {
 			em.persist(mapa);
 			em.flush();
 		}
-		
-
-		
-		
-		
 		
 		//cria o caminho
 		// se o caminho ja existe, apenas atualiza a distancia
