@@ -14,12 +14,12 @@ IDE Utilizada: Oracle Enterprise Pack for Eclipse (12.2.1.1)
 
 Tecnologias utilizadas: 
 - JPA, para a persistência dos dados.
-- Sessions Beans Stateless, desempenhando o papel da fachada
+- Sessions Beans Stateless, desempenhando o papel da fachada, Suporte Transação
 - JAX-WS, para a publicação do serviço via webservice.
 - Hipster, especifica para resolução do problema de menor caminho com peso, nos grafos resultantes das rotas.
 - JUNIT para os testes unitarios
 
 
 Documentos adicionais:
-WallMartProject.doc descreve sobre a instalação e configuração do ambiente 
+WallMartProject -resumo, descrevendo sobre as configurações necessárias para o projeto
 
