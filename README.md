@@ -25,7 +25,7 @@ Sobre a Solução para o problema.
 
 A parte técnica do problema "Expor um webservice para cadastros" "expor um webservice para consulta do menor caminho" , é realtivamente simples.
 Porém a parte da lógica é complexa, pois se trata de um problema de grafos com peso.
-Após análise identifiquei desenvolver a solução para este problema seria custoso em termos de tempo, sendo assim iniciei 
+Após análise identifiquei que desenvolver a solução para este problema seria custoso em termos de tempo, sendo assim iniciei 
 uma pesquisa onde achei uma api, capaz de resolver o problema dos Grafos, o 'Hipster', tornando  assim a solução bem mais simples de se prover.
 
 
